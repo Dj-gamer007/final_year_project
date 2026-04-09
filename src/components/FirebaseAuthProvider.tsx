@@ -49,7 +49,7 @@ export const FirebaseAuthProvider = ({ children }: { children: React.ReactNode }
           {!supabase && <p className="text-destructive">❌ Supabase (Missing URL)</p>}
         </div>
         <p className="text-sm text-muted-foreground max-w-md mb-8">
-          Please add your environment variables (VITE_FIREBASE_* and VITE_SUPABASE_*) to your **GitHub Repository Settings > Secrets > Actions** and trigger a new build.
+          Please add your environment variables (VITE_FIREBASE_* and VITE_SUPABASE_*) to your **GitHub Repository Settings &gt; Secrets &gt; Actions** and trigger a new build.
         </p>
         <Button onClick={() => window.location.reload()} variant="outline">
           Try Again
