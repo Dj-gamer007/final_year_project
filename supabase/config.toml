@@ -1,0 +1,10 @@
+project_id = "bcmigybnwglnsvqufqfj"
+
+[functions.extract-decisions]
+verify_jwt = false
+
+[functions.track-accountability]
+verify_jwt = false
+
+[functions.send-meeting-summary]
+verify_jwt = false
